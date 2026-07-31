@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 
-model = joblib.load(r'Q:\\Project\\Salary Pred\\rfsalary.joblib')
+model = joblib.load('rfsalary.joblib')
 
 st.title('Salary Prediction')
 
